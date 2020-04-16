@@ -1,7 +1,9 @@
 import React from 'react';
-import { getRandomColor } from './components';
+import { getRandomColor,listCountByColum } from './components';
 
 function App() {
+    const a = listCountByColum([{id:'a',key:'xxx'},{id:'b'},{id:'b'}]);
+    console.log(a)
     return (
         <div className="App" style={{ color: getRandomColor() }}>
             1

@@ -43,6 +43,13 @@ hex to rgb
 - isNullOrEmpty :
 判空
 
+-------------------
+## array 集合数组
+-listToMap  :
+list根据colum转obj并去重
+-listCountByColum :
+list根据colum计数
+
 ------------------------
 ## engineering 工程
 - debounce :
@@ -52,7 +59,7 @@ hex to rgb
 
 # 开发 
 git下来代码在src/components里开发。
-在src/components里export
+在src/components/index里export
 # 打包
 ```js
 npm run build:commonjs                                                               
