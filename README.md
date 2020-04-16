@@ -47,3 +47,24 @@ hex to rgb
 ## engineering 工程
 - debounce :
 防抖
+
+
+
+# 开发 
+git下来代码在src/components里开发。
+在src/components里export
+# 打包
+```js
+npm run build:commonjs                                                               
+npm run build:esm
+```
+# 发布
+git push
+
+# 安装 
+在 package.json 中加上
+```js
+"bywin-public-function":"git+http://你的账号:你的密码@code.bywin.cn/bywin-components/bywin-public-function.git"
+```
+
+然后 cnpm i 安装
