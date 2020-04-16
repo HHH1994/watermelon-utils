@@ -14,33 +14,36 @@ const color = bywin.getRandomColor();
 
 
 ```
-
+-----
 ## color 颜色
-#### getRandomColor 
+- getRandomColor :
 十六进制颜色随机
-#### toHex
+- toHex :
 将十进制数字转换成两位十六进制字符串
-#### RGBtoHEX 
+- RGBtoHEX :
 将rgb()格式颜色转换成大写十六机制字符串（#C0C0C0），如果已经是十六进制则直接输出
-#### rgbToHex
+- rgbToHex :
 rgb to hex
-#### hexToRgb
+- hexToRgb :
 hex to rgb
-#### gradient
+- gradient :
 计算渐变过渡色
 
+-----
 ## string 字符串
-#### calcStrLen
+- calcStrLen :
 计算字符串的长度
-#### fittingString
+- fittingString :
 计算显示的字符串（省略掉过长的用...代替）
-#### getQueryString
+- getQueryString :
 获取参数
 
+------------------------
 ## object 对象
-#### isNullOrEmpty
+- isNullOrEmpty :
 判空
 
+------------------------
 ## engineering 工程
-#### debounce
+- debounce :
 防抖

@@ -1,17 +1,17 @@
 {
-  "name": "bywin-jiaxin",
+  "name": "bywin-public-function",
   "version": "0.1.0",
-  "description": "半云组件",
+  "description": "半云公共函数库",
   "main": "lib/index.js",
   "module": "esm/index.js",
   "license": "MIT",
   "author": "bywin",
   "repository": {
     "type": "git",
-    "url": "git+http://github.com/bywin-components/bywin-jiaxin.git"
+    "url": "git+http://github.com/bywin-components/bywin-public-function.git"
   },
   "bugs": {
-    "url": "http://github.com/bywin-components/bywin-jiaxin/issues"
+    "url": "http://github.com/bywin-components/bywin-public-function/issues"
   },
   "files": [
     "esm",
