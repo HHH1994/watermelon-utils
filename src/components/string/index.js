@@ -42,7 +42,7 @@ export const fittingString = (str = '', maxWidth, fontSize) => {
  */
 export const getQueryString = (search, name) => {
     var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)');
-    var r = search.substr(1).match(reg);
+    var r = search?.substr(1)?.match(reg);
     if (r != null) {
         return decodeURI(r[2]);
     }

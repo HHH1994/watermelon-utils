@@ -14,8 +14,47 @@ const color = bywin.getRandomColor();
 
 
 ```
+
 -----
-## color 颜色
+
+## 目录
+> - ## [string 字符串](#string)
+> - ## [object 对象](#object)
+> - ## [array 集合数组](#array)
+> - ## [engineering 工程](#engineering)
+> - ## [color 颜色](#color)
+
+
+> - ## [开发打包发布](#work)
+
+-----
+## <span id="string">string 字符串</span>    [<源码>][string]
+- calcStrLen :
+计算字符串的长度
+- fittingString :
+计算显示的字符串（省略掉过长的用...代替）
+- getQueryString :
+获取参数
+
+------------------------
+## <span id="object">object 对象</span>     [<源码>][object]
+- isNullOrEmpty :
+判空
+
+-------------------
+## <span id="array">array 集合数组</span>       [<源码>][array]
+- listToMap  :
+list根据colum转obj并去重
+- listCountByColum :
+list根据colum计数
+
+------------------------
+##  <span id="engineering">engineering 工程</span>      [<源码>][engineering]
+- debounce :
+防抖
+
+-----
+## <span id="color">color 颜色</span>    [<源码>][color]
 - getRandomColor :
 十六进制颜色随机
 - toHex :
@@ -29,35 +68,9 @@ hex to rgb
 - gradient :
 计算渐变过渡色
 
------
-## string 字符串
-- calcStrLen :
-计算字符串的长度
-- fittingString :
-计算显示的字符串（省略掉过长的用...代替）
-- getQueryString :
-获取参数
-
-------------------------
-## object 对象
-- isNullOrEmpty :
-判空
-
--------------------
-## array 集合数组
--listToMap  :
-list根据colum转obj并去重
--listCountByColum :
-list根据colum计数
-
-------------------------
-## engineering 工程
-- debounce :
-防抖
 
 
-
-# 开发 
+# <span id="work">开发</span>
 git下来代码在src/components里开发。
 在src/components/index里export
 # 打包
@@ -75,3 +88,11 @@ git push
 ```
 
 然后 cnpm i 安装
+
+
+
+[color]:http://code.bywin.cn/bywin-components/bywin-public-function/src/master/src/components/color/index.js
+[string]:http://code.bywin.cn/bywin-components/bywin-public-function/src/master/src/components/string/index.js
+[object]:http://code.bywin.cn/bywin-components/bywin-public-function/src/master/src/components/object/index.js
+[array]:http://code.bywin.cn/bywin-components/bywin-public-function/src/master/src/components/array/index.js
+[engineering]:http://code.bywin.cn/bywin-components/bywin-public-function/src/master/src/components/engineering/index.js
