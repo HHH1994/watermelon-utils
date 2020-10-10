@@ -1,17 +1,17 @@
 {
-  "name": "bywin-public-function",
+  "name": "watermelon-utils",
   "version": "0.1.0",
   "description": "半云公共函数库",
   "main": "lib/index.js",
   "module": "esm/index.js",
   "license": "MIT",
-  "author": "bywin",
+  "author": "watermelon",
   "repository": {
     "type": "git",
-    "url": "git+http://github.com/bywin-components/bywin-public-function.git"
+    "url": "git+http://github.com/watermelon-components/watermelon-utils.git"
   },
   "bugs": {
-    "url": "http://github.com/bywin-components/bywin-public-function/issues"
+    "url": "http://github.com/watermelon-components/watermelon-utils/issues"
   },
   "files": [
     "esm",
@@ -36,6 +36,8 @@
     "css-loader": "3.4.2",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",
+    "echarts": "^4.7.0",
+    "echarts-for-react": "^2.0.15-beta.1",
     "eslint": "^6.6.0",
     "eslint-config-react-app": "^5.2.1",
     "eslint-loader": "3.0.3",

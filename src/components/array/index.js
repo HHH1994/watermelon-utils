@@ -7,7 +7,7 @@
 export const listToMap = (list = [], colum = 'id') => {
     const map = {};
     (list || []).forEach(item => {
-        map[item[colum]] = item;
+        map[item?.[colum]] = item;
     });
     return map;
 };
@@ -22,7 +22,7 @@ export const listToMap = (list = [], colum = 'id') => {
 export const listCountByColum = (list = [], colum = 'id') => {
     const map = {};
     (list || []).forEach(item => {
-        map[item?.[colum]] = map[item?.[colum]] ? map[item?.[colum]] + 1 : 1;
+        map[item?.[colum]] = (map[item?.[colum]] || 0) + 1 ;
     });
     return map;
 };

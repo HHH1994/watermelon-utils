@@ -1,16 +1,16 @@
-# bywin 公用函数 
+# watermelon 公用函数 
 文档描述了函数作用，具体使用和参数说明详见源码
 
 ## 示例
 ```js
-import { getRandomColor } from 'bywin-public-function';
+import { getRandomColor } from 'watermelon-utils';
 
 const color = getRandomColor();
 
 // or
-import bywin from 'bywin-public-function';
+import watermelon from 'watermelon-utils';
 
-const color = bywin.getRandomColor();
+const color = watermelon.getRandomColor();
 
 
 ```
@@ -84,15 +84,15 @@ git push
 # 安装 
 在 package.json 中加上
 ```js
-"bywin-public-function":"git+http://你的账号:你的密码@code.bywin.cn/bywin-components/bywin-public-function.git"
+"watermelon-utils":"git+http://你的账号:你的密码@code.watermelon.cn/watermelon-components/watermelon-utils.git"
 ```
 
 然后 cnpm i 安装
 
 
 
-[color]:http://code.bywin.cn/bywin-components/bywin-public-function/src/master/src/components/color/index.js
-[string]:http://code.bywin.cn/bywin-components/bywin-public-function/src/master/src/components/string/index.js
-[object]:http://code.bywin.cn/bywin-components/bywin-public-function/src/master/src/components/object/index.js
-[array]:http://code.bywin.cn/bywin-components/bywin-public-function/src/master/src/components/array/index.js
-[engineering]:http://code.bywin.cn/bywin-components/bywin-public-function/src/master/src/components/engineering/index.js
+[color]:http://code.watermelon.cn/watermelon-components/watermelon-utils/src/master/src/components/color/index.js
+[string]:http://code.watermelon.cn/watermelon-components/watermelon-utils/src/master/src/components/string/index.js
+[object]:http://code.watermelon.cn/watermelon-components/watermelon-utils/src/master/src/components/object/index.js
+[array]:http://code.watermelon.cn/watermelon-components/watermelon-utils/src/master/src/components/array/index.js
+[engineering]:http://code.watermelon.cn/watermelon-components/watermelon-utils/src/master/src/components/engineering/index.js
