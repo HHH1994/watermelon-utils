@@ -91,8 +91,8 @@ git push
 
 
 
-[color]:http://code.watermelon.cn/watermelon-components/watermelon-utils/src/master/src/components/color/index.js
-[string]:http://code.watermelon.cn/watermelon-components/watermelon-utils/src/master/src/components/string/index.js
-[object]:http://code.watermelon.cn/watermelon-components/watermelon-utils/src/master/src/components/object/index.js
-[array]:http://code.watermelon.cn/watermelon-components/watermelon-utils/src/master/src/components/array/index.js
-[engineering]:http://code.watermelon.cn/watermelon-components/watermelon-utils/src/master/src/components/engineering/index.js
+[color]:https://github.com/wangxiaogang94/watermelon-utils/blob/master/src/components/color/index.js
+[string]:https://github.com/wangxiaogang94/watermelon-utils/blob/master/src/components/string/index.js
+[object]:https://github.com/wangxiaogang94/watermelon-utils/blob/master/src/components/object/index.js
+[array]:https://github.com/wangxiaogang94/watermelon-utils/blob/master/src/components/array/index.js
+[engineering]:https://github.com/wangxiaogang94/watermelon-utils/blob/master/src/components/engineering/index.js
