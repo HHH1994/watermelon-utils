@@ -1,7 +1,7 @@
 {
   "name": "watermelon-utils",
   "version": "0.1.0",
-  "description": "半云公共函数库",
+  "description": "watermelon公共函数库",
   "main": "lib/index.js",
   "module": "esm/index.js",
   "license": "MIT",
