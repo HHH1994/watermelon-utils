@@ -82,12 +82,7 @@ npm run build:esm
 git push
 
 # 安装 
-在 package.json 中加上
-```js
-"watermelon-utils":"git+http://你的账号:你的密码@code.watermelon.cn/watermelon-components/watermelon-utils.git"
-```
-
-然后 cnpm i 安装
+cnpm i 安装
 
 
 
