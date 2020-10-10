@@ -1,6 +1,6 @@
 {
   "name": "watermelon-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "watermelon公共函数库",
   "main": "lib/index.js",
   "module": "esm/index.js",
