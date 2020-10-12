@@ -10,4 +10,21 @@ export const debounce = (fn, delay) => {
         timer = setTimeout(fn, delay);
     };
 };
-export default { debounce };
+
+/**
+ * 节流
+ * @param {*} fn 函数
+ * @param {*} delay  延时
+ */
+export const throttle = (fn, delay) => {
+  let timer = new Date().getTime();
+  return () => {
+      let now = new Date().getTime();
+      if ( now - timer > delay) {
+          fn(); 
+          timer = now;
+      }
+  }
+};
+
+export default { debounce, throttle };

@@ -14,7 +14,7 @@ export { calcStrLen,fittingString,getQueryString } from './string';
 export { isNullOrEmpty } from './object';
 
 // engineering 工程
-export { debounce } from './engineering';
+export { debounce, throttle } from './engineering';
 
 // array 集合数组
 export { listToMap, listCountByColum} from './array';
