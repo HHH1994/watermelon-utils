@@ -17,4 +17,27 @@ export const isNullOrEmpty = obj => {
     return false;
 };
 
-export default { isNullOrEmpty };
+/**
+ * 判断对象中是否存在某个属性
+ * @param {*} property 属性名
+ * @param {*} obj 对象
+ */
+export const containProperty = (property, obj) => {
+    // 控制传参有效性
+    if (typeof obj !== 'object') {
+        throw new Error('obj必须为一个对象');
+    }
+
+    if (typeof property !== 'string' || typeof property !== 'symbol') {
+        throw new Error('property必须为String或者Symbol');
+    }
+
+    // 判断非继承属性
+    if (obj.hasOwnProperty(property)) {
+        return true;
+    }
+
+    return property in obj;
+};
+
+export default { isNullOrEmpty, containProperty };
