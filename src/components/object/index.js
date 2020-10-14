@@ -40,4 +40,18 @@ export const containProperty = (property, obj) => {
     return property in obj;
 };
 
-export default { isNullOrEmpty, containProperty };
+/**
+ * 判断对象是否为空
+ * @param {*} obj 带判断的对象 
+ */
+export const isEmptyObject = (obj) => {
+    // ES6
+    if (Object.keys) {
+        return obj && Object.keys(obj).length === 0 && obj.constructor === Object;
+    }
+
+    return Object.prototype.toString.call(obj) === '[object Object]' && JSON.stringify(obj) === '{}';
+    
+}
+
+export default { isNullOrEmpty, containProperty, isEmptyObject };

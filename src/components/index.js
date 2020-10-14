@@ -11,7 +11,7 @@ export { getRandomColor, toHex, RGBtoHEX, rgbToHex, hexToRgb, gradient } from '.
 export { calcStrLen,fittingString,getQueryString } from './string';
 
 // object 对象
-export { isNullOrEmpty } from './object';
+export { isNullOrEmpty, containProperty, isEmptyObject } from './object';
 
 // engineering 工程
 export { debounce, throttle } from './engineering';
