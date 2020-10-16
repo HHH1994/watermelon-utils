@@ -3,6 +3,7 @@ import string from './string';
 import object from './object';
 import engineering from './engineering';
 import array from './array';
+import time from './time';
 
 // color 颜色
 export { getRandomColor, toHex, RGBtoHEX, rgbToHex, hexToRgb, gradient } from './color';
@@ -19,4 +20,7 @@ export { debounce, throttle } from './engineering';
 // array 集合数组
 export { listToMap, listCountByColum} from './array';
 
-export default { ...color, ...string, ...object, ...engineering,...array };
+// 时间格式化
+export { parseTime } from './time';
+
+export default { ...color, ...string, ...object, ...engineering,...array, ...time };
