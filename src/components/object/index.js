@@ -54,4 +54,24 @@ export const isEmptyObject = (obj) => {
     
 }
 
-export default { isNullOrEmpty, containProperty, isEmptyObject };
+/**
+ * 判断输入值类型
+ * @param {*} obj 
+ */
+export const typeOf = (obj) => {
+    const tostring = Object.prototype.toString();
+    const map = {
+        '[object Boolean]': 'boolean',
+        '[object Number]': 'number',
+        '[object String]': 'string',
+        '[object Function]': 'function',
+        '[object Array]': 'array',
+        '[object Date]': 'date',
+        '[object Object]': 'object',
+        '[object Null]': 'null',
+        '[object Undefined]': 'undefined',
+        '[object RegExp]': 'regExp'
+    };
+    return map[tostring.call(obj)];
+}
+export default { isNullOrEmpty, containProperty, isEmptyObject, typeOf};
