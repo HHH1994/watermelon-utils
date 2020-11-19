@@ -23,7 +23,16 @@ const formatNumberToStr = (str) => {
   return str < 10 ?  `0${str}` : str;
 }
 
+// 获取指定月份的最后一天
+export function getLastDate(date) {
+  if (!date instanceof Date) {
+    throw new Error('请传入Date类型')
+  }
+  const d = new Date(date.getFullYear(), date.getMonth() + 1, 0);
+  return d.getDate();
+}
 
 export default {
-  parseTime
+  parseTime,
+  getLastDate
 }

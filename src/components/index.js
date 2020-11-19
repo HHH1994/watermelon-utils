@@ -21,6 +21,6 @@ export { debounce, throttle } from './engineering';
 export { listToMap, listCountByColum} from './array';
 
 // 时间格式化
-export { parseTime } from './time';
+export { parseTime, getLastDate } from './time';
 
 export default { ...color, ...string, ...object, ...engineering,...array, ...time };
